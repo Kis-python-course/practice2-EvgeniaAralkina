@@ -16,10 +16,6 @@ print('#5: ',sum(int(i) for i in s[1::2]))
 #6
 print ('#6: ', max(s,key=len))
 
-#7 сократите код...
-i = 0
-['much','code','wow'][i]
-
 #8 генерирует (не просто выдает готовый) список всех названий групп
 def generate_groups():
     name = 'BKMH'
